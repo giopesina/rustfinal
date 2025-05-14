@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://example.com",
+    "status": 200,
+    "response_time_ms": 385,
+    "timestamp": 1747201527
+  },
+  {
+    "url": "https://doesnotexist123456.com",
+    "status": "error sending request for url (https://doesnotexist123456.com/): error trying to connect: dns error: No such host is known. (os error 11001)",
+    "response_time_ms": 491,
+    "timestamp": 1747201527
+  },
+  {
+    "url": "https://rust-lang.org",
+    "status": 200,
+    "response_time_ms": 764,
+    "timestamp": 1747201528
+  },
+  {
+    "url": "https://httpstat.us/404",
+    "status": 404,
+    "response_time_ms": 414,
+    "timestamp": 1747201529
+  }
+]

@@ -1,0 +1,5 @@
+# Sample sites for testing
+https://example.com
+https://doesnotexist123456.com
+https://rust-lang.org
+https://httpstat.us/404
