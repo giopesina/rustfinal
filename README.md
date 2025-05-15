@@ -12,9 +12,8 @@ The program outputs results both live to the terminal and in a `status.json` fil
 - Configurable retries on failure with 100 ms delay.
 - Safe concurrency using `Arc<Mutex>`.
 - Manual JSON generation without external serialization crates.
-- Supports input from both file (`--file`) and command-line URLs.
 - Clean CLI design and error handling (`Result<_, String>`).
-- Fully blocking, no async, no unsafe code.
+
 
 ## Usage
 
