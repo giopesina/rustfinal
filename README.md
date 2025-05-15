@@ -20,4 +20,4 @@ The program outputs results both live to the terminal and in a `status.json` fil
 
 ### Build
 ```bash
-cargo build --release
+cargo run -- --file sites.txt --workers 10 --timeout 3 --retries 2
